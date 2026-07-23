@@ -7,6 +7,7 @@
 #include "graphics/raycasts.h"
 #include "game/player.h"
 #include "game/sprites.h"
+#include "data/dataHandler.h"
 
 #include <math.h>
 #include "map.h"
@@ -58,7 +59,7 @@ int gDone = 0;
 void init(){
     initPlayer();
     initialiseGraphics();
-
+    setDataDirectory();
     printf("Init finished");
 }
 
@@ -112,6 +113,7 @@ bool update(double deltaTime){
 void render(Uint64 aTicks){
     fillScreen(0x000000ff);
     drawRaycasts();
+    drawSprite(scaleSprite((int*)testSprite,5,5,5),25,25,50,50);
 }
 
 void printPlayerPos(){
@@ -129,8 +131,6 @@ void loop(double deltaTime){
     }
     else{
         render(SDL_GetTicks());
-        printPlayerPos();
-        printPlayerLookDirDegrees();
     }
 
 }

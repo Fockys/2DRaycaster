@@ -24,7 +24,8 @@ extern double playerLookDirY;
 
 #define playerFOV 90
 
-//global sprite sheets
+
+extern char* dataLocation;
 extern uint32_t *spriteSheet;
 
 #endif

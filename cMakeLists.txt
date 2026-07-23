@@ -13,6 +13,7 @@ PRIVATE
     src/graphics/raycasts.c
     src/game/player.c
     src/game/sprites.c
+    src/data/dataHandler.c
 )
 
 target_link_libraries(raycast SDL3::SDL3)
