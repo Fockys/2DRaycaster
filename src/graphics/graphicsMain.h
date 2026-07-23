@@ -1,0 +1,2 @@
+int initialiseGraphics();
+void cleanupGraphics();

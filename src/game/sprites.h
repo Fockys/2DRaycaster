@@ -1,0 +1,1 @@
+int* scaleSprite(int *sprite, int spriteHeight, int spriteWidth, float scaleFactor);

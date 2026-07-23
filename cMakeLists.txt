@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.26)
+project(raycast C CXX)
+
+find_package(SDL3 REQUIRED)
+
+add_executable(raycast)
+
+target_sources(raycast
+PRIVATE
+    src/main.c
+    src/graphics/graphicsMain.c
+    src/graphics/graphicsHelper.c
+    src/graphics/raycasts.c
+    src/game/player.c
+    src/game/sprites.c
+)
+
+target_link_libraries(raycast SDL3::SDL3)

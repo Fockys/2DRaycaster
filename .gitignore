@@ -1,0 +1,6 @@
+/.vscode/
+/build/
+/CMakeFiles
+/build.ninja
+/cMakeCache.txt
+/cmake_install.cmake
