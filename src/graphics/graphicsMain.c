@@ -19,6 +19,7 @@ int initialiseGraphics(){
         return -1;
     }
     gDone = 0;
+    return 0;
 
 }
 

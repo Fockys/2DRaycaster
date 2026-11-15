@@ -4,6 +4,10 @@
 #include <stdint.h>
 #include "SDL3/SDL.h"
 
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
 //graphics
 #define WINDOW_WIDTH 800
 #define WINDOW_HEIGHT 600
