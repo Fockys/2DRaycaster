@@ -64,3 +64,8 @@ This will generate the executable in the build directory.
 Run the executable through the file exlorer or command line
 
 If SDL3 is not found at runtime, make sure the SDL3 DLL is available on your `PATH`, or copy the SDL3 runtime DLL next to the executable.
+
+
+## Credits
+
+Textures sourced from https://piiixl.itch.io/textures free for commercial and personal use
